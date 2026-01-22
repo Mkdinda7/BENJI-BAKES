@@ -1057,15 +1057,14 @@
             max-width: 350px !important;
         }
 
-        .swiper-slide {
+        /* .swiper-slide {
             flex-shrink: 0;
             height: 100%;
             position: relative;
             display: flex;
             align-items: center !important;
             transition-property: transform;
-
-        }
+        } */
 
         /* .swiper-slide {
             margin-left: auto;
