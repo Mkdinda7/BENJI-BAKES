@@ -1059,11 +1059,7 @@
             position: relative;
             transition-property: transform;
             display: flex;
-
-            .cookie-img {
-                max-width: 350px !important;
-
-            }
+            width: 420px;
 
         }
 
