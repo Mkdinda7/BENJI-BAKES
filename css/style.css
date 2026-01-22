@@ -1059,6 +1059,7 @@
             justify-content: center;
         }
         .swiper-slide{
+            width: 420px;
             display: flex;
             justify-content: center !important;
         }
