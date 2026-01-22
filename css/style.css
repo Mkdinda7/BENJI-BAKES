@@ -1057,6 +1057,8 @@
 
         .cookie-img{
             max-width: 350px !important;
+            display: flex !important;
+            justify-content: center !important;
         }
 
     }
