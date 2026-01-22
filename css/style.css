@@ -113,7 +113,7 @@
 
 
     .premium-links .nav-link.active {
-        color: #ff4db8  !important;
+        color: #ff4db8 !important;
         font-weight: 600;
     }
 
@@ -318,9 +318,7 @@
         position: absolute;
     }
 
-     .hero-content{
-
-     }
+    .hero-content {}
 
     .hero-content h1 {
         font-family: var(--tiempos-font);
@@ -548,7 +546,7 @@
         transition: all 0.3s ease-in-out;
 
 
-        &:hover{
+        &:hover {
             border-radius: 6px;
             cursor: pointer;
             transform: scale(1.1);
@@ -1055,17 +1053,24 @@
             width: 100% !important;
         }
 
-        .cookie-img{
+        .cookie-img {
             max-width: 350px !important;
         }
 
-
         .swiper-slide {
+            flex-shrink: 0;
+            height: 100%;
+            position: relative;
+            transition-property: transform;
+            display: flex;
+        }
+
+        /* .swiper-slide {
             margin-left: auto;
             margin-right: auto;
             display: flex !important;
             border: 1px solid red;
-        }
+        } */
 
     }
 
