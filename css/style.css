@@ -1059,6 +1059,12 @@
             max-width: 350px !important;
         }
 
+
+        .swiper-slide {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
     }
 
 
