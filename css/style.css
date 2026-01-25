@@ -318,7 +318,6 @@
         position: absolute;
     }
 
-    .hero-content {}
 
     .hero-content h1 {
         font-family: var(--tiempos-font);
@@ -400,10 +399,11 @@
             justify-content: center !important;
             align-items: center !important;
             height: 500px;
-            border: 2px solid white;
+            /* border: 2px solid white; */
             border-radius: 16px;
             background: #899bff75;
             backdrop-filter: blur(2px);
+            z-index: 2;
 
 
             h1 {
