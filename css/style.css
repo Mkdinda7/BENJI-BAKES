@@ -399,8 +399,8 @@
             flex-direction: column;
             justify-content: center !important;
             align-items: center !important;
-            height: auto !important;
-            /* border: 2px solid white; */
+            height: 500px;
+            border: 2px solid white;
             border-radius: 16px;
             background: #899bff75;
             backdrop-filter: blur(2px);
@@ -432,7 +432,7 @@
         .hero-image {
             z-index: 0;
             opacity: 0.5;
-            height: 500px;
+            height: auto;
             width: fit-content;
         }
 
