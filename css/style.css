@@ -403,7 +403,7 @@
             padding: 35px 10px;
             border: 2px solid white;
             border-radius: 16px;
-            background: #899bff75;
+            /* background: #899bff75; */
             backdrop-filter: blur(2px);
             z-index: 2;
 
