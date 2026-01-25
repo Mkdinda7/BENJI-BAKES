@@ -371,6 +371,7 @@
 
     @media screen and (max-width:1370px) {
         .hero-content {
+            z-index: 2;
 
             h1 {
                 font-size: 68px;
