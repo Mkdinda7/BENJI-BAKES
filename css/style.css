@@ -357,7 +357,7 @@
         height: 100%;
         filter: drop-shadow(0 0 18px rgba(166, 0, 255, 0.274)) drop-shadow(0 0 45px rgba(166, 0, 255, 0));
         animation: purpleGlow 2.2s ease-in-out infinite;
-        z-index: 10 !important;
+        z-index: 5 !important;
     }
 
     @keyframes purpleGlow {
