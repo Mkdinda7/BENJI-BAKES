@@ -206,7 +206,6 @@
     }
 
     /* ====================== HERO SECTION CSS ======================== */
-
     .hero-banner {
         width: 100%;
         padding: 115px 0;
@@ -225,16 +224,16 @@
         width: 100%;
         max-width: 100%;
         border-radius: 22px;
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
         padding: 90px 45px;
         background: #ffffff33;
         overflow: hidden !important;
         position: relative !important;
-        /* border: 1px solid red; */
         z-index: 0;
     }
 
+    /* Decorative plant */
     .hero-plant {
         position: absolute;
         right: -45px;
@@ -244,6 +243,7 @@
         opacity: 0.8;
     }
 
+    /* bubbles */
     .bubble {
         position: absolute;
         border-radius: 50%;
@@ -255,7 +255,7 @@
         height: 150px;
         right: 2%;
         top: 35%;
-        opacity: .50;
+        opacity: .5;
     }
 
     .b2 {
@@ -263,16 +263,15 @@
         height: 150px;
         left: -5%;
         bottom: 7%;
-        opacity: .50;
+        opacity: .5;
     }
-
 
     .b3 {
         width: 260px;
         height: 260px;
         left: 12%;
         top: 22%;
-        opacity: .50;
+        opacity: .5;
     }
 
     .b4 {
@@ -280,7 +279,7 @@
         height: 500px;
         right: 10%;
         top: 20%;
-        opacity: .50;
+        opacity: .5;
     }
 
     .b5 {
@@ -288,7 +287,7 @@
         height: 70px;
         right: 5%;
         top: 70%;
-        opacity: .50;
+        opacity: .5;
     }
 
     .b6 {
@@ -299,29 +298,30 @@
         opacity: .22;
     }
 
-    .hero-grid {
-        position: relative;
-        z-index: 2;
-    }
-
-
+    /* Grid */
     .hero-grid {
         display: flex;
         justify-content: flex-end !important;
         align-items: center !important;
         position: relative;
         width: 100%;
+        z-index: 2;
     }
 
+    /* LEFT SIDE */
     .hero-left {
         width: 100% !important;
-        position: absolute;
+        position: relative;
+        /* 🔑 important */
+        z-index: 10;
     }
 
-    .hero-content{
-        z-index: 10 !important;
+    /* TEXT CONTENT */
+    .hero-content {
+        position: relative;
+        z-index: 20 !important;
+        /* 🔥 text always above image */
     }
-    
 
     .hero-content h1 {
         font-family: var(--tiempos-font);
@@ -330,10 +330,10 @@
         line-height: 1.146;
         text-shadow: 2.034px 12.84px 87px rgba(0, 0, 0, 0.41);
         font-weight: normal;
-        z-index: 10 !important;
-        span {
-            font-weight: bold;
-        }
+    }
+
+    .hero-content h1 span {
+        font-weight: bold;
     }
 
     .hero-content p {
@@ -341,14 +341,20 @@
         font-family: var(--gordita-font);
     }
 
+    /* RIGHT SIDE */
     .hero-right {
         width: 60%;
+        position: relative;
+        z-index: 5;
+        /* 👈 image stays below text */
     }
 
+    /* IMAGE */
     .hero-image {
         width: 100%;
         height: 600px;
         align-self: flex-start;
+        position: relative;
         z-index: 5 !important;
     }
 
@@ -357,22 +363,23 @@
         height: 100%;
         filter: drop-shadow(0 0 18px rgba(166, 0, 255, 0.274)) drop-shadow(0 0 45px rgba(166, 0, 255, 0));
         animation: purpleGlow 2.2s ease-in-out infinite;
-        z-index: 5 !important;
     }
 
+    /* Animation */
     @keyframes purpleGlow {
-
-        0%,
-        100% {
-            filter: drop-shadow(0 0 14px rgba(166, 0, 255, 0)) drop-shadow(0 0 30px rgba(165, 0, 255, 0.20));
-            transform: translateY(0);
+        0% {
+            filter: drop-shadow(0 0 12px rgba(166, 0, 255, 0.3));
         }
 
         50% {
-            filter: drop-shadow(0 0 26px rgba(166, 0, 255, 0)) drop-shadow(0 0 70px rgba(165, 0, 255, 0.28));
-            transform: translateY(-8px);
+            filter: drop-shadow(0 0 28px rgba(166, 0, 255, 0.6));
+        }
+
+        100% {
+            filter: drop-shadow(0 0 12px rgba(166, 0, 255, 0.3));
         }
     }
+
 
     @media screen and (max-width:1370px) {
         .hero-content {
