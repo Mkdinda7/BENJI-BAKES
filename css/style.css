@@ -316,6 +316,7 @@
     .hero-left {
         width: 100% !important;
         position: absolute;
+        z-index: 10;
     }
 
     .hero-content{
