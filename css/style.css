@@ -330,7 +330,7 @@
         line-height: 1.146;
         text-shadow: 2.034px 12.84px 87px rgba(0, 0, 0, 0.41);
         font-weight: normal;
-
+        z-index: 10 !important;
         span {
             font-weight: bold;
         }
