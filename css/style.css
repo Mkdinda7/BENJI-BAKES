@@ -431,7 +431,7 @@
         .hero-image {
             z-index: 0;
             opacity: 0.5;
-            height: auto;
+            height: 500px;
             width: fit-content;
         }
 
