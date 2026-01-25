@@ -318,6 +318,7 @@
         position: absolute;
     }
 
+    
 
     .hero-content h1 {
         font-family: var(--tiempos-font);
@@ -371,7 +372,6 @@
 
     @media screen and (max-width:1370px) {
         .hero-content {
-            z-index: 2;
 
             h1 {
                 font-size: 68px;
@@ -399,13 +399,11 @@
             flex-direction: column;
             justify-content: center !important;
             align-items: center !important;
-            height: auto;
-            padding: 35px 10px;
+            height: 500px;
             border: 2px solid white;
             border-radius: 16px;
-            background: #6eeeff75;
+            background: #899bff75;
             backdrop-filter: blur(2px);
-            z-index: 2;
 
 
             h1 {
@@ -416,7 +414,6 @@
             p {
                 text-align: center;
                 width: 60%;
-                margin-bottom: 0px;
             }
         }
 
@@ -434,17 +431,11 @@
         .hero-image {
             z-index: 0;
             opacity: 0.5;
-            height: auto;
+            height: 500px;
             width: fit-content;
         }
 
 
-    }
-
-    @media screen and (max-width:774px) {
-        .hero-content{
-            margin: auto !important;
-        }
     }
 
     @media screen and (max-width:676px) {
