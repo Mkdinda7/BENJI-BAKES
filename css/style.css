@@ -403,7 +403,7 @@
             padding: 35px 10px;
             border: 2px solid white;
             border-radius: 16px;
-            /* background: #899bff75; */
+            background: #a1e9ff75;
             backdrop-filter: blur(2px);
             z-index: 2;
 
@@ -439,6 +439,12 @@
         }
 
 
+    }
+
+    @media screen and (max-width:774px) {
+        .hero-content{
+            margin: auto !important;
+        }
     }
 
     @media screen and (max-width:676px) {
