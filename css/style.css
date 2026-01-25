@@ -238,7 +238,6 @@
         background: #ffffff33;
         overflow: hidden !important;
         position: relative !important;
-        /* border: 1px solid red; */
         z-index: 0;
     }
 
@@ -400,6 +399,8 @@
     @media screen and (max-width:676px) {
 
         .hero-content {
+            background: #dddddd8e;
+            border: 1px solid white;
 
             h1 {
                 text-align: center;
