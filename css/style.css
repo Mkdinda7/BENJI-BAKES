@@ -401,6 +401,7 @@
         .hero-content {
             background: #dddddd8e;
             border: 1px solid white;
+            padding: 10px 15px 0px;
 
             h1 {
                 text-align: center;
